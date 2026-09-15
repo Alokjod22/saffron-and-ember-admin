@@ -1,0 +1,18 @@
+{
+  "customerName": "Alok Test",
+  "customerPhone": "7248964895",
+  "customerEmail": "alok@example.com",
+  "deliveryAddress": "21 Marine Drive Apt 4B, Mumbai",
+  "orderType": "DELIVERY",
+  "subtotal": 826,
+  "tax": 41,
+  "total": 867,
+  "paymentMethod": "UPI",
+  "items": [
+    {
+      "menuItemId": "custom-plate-1789461430",
+      "quantity": 1,
+      "price": 826
+    }
+  ]
+}

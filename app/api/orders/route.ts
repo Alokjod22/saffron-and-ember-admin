@@ -12,10 +12,7 @@ export async function GET(req: NextRequest) {
 
     let where: any = {};
 
-    if (!user || user.role !== 'ADMIN') {
-      if (!user) {
-        return NextResponse.json({ orders: [] });
-      }
+    if (user && user.role !== 'ADMIN') {
       where.userId = user.userId;
     } else if (status && status !== 'ALL') {
       where.status = status;
